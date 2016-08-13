@@ -1,0 +1,37 @@
+{
+  "name": "Airbus A350-900",
+  "icao": "A359",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "H",
+  "category": {
+    "srs": 3,
+    "lahso": 9,
+    "recat": "B"
+  },
+  "ceiling": 43100,
+  "rate": {
+    "climb":      3000,
+    "descent":    2500,
+    "accelerate": 6,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 2.200,
+    "landing": 1.966
+  },
+  "speed":{
+    "min":     130,
+    "landing": 155,
+    "cruise":  488,
+    "cruiseM": null,
+    "max":     510,
+    "maxM":    null
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}
